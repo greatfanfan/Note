@@ -22,7 +22,7 @@ class C {
 }
 ```
 
-4. 生成器函数：用 function * 定义的函数。
+4. 生成器函数（生成器函数可以理解为返回一个序列的函数，它的底层是 iterator 机制。）：用 function * 定义的函数。
 ```javascript
 function* foo(){
     // code
@@ -38,7 +38,7 @@ class Foo {
 }
 ```
 
-6. 异步函数：普通函数、箭头函数和生成器函数加上 async 关键字。
+6. 异步函数：普通函数、箭头函数和生成器函数加上 async 关键字。async 函数是可以暂停执行，等待异步操作的函数，它的底层是 Promise 机制。
 ```javascript
 async function foo(){
     // code
