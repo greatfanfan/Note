@@ -1,1 +1,3 @@
 *node_modules/*
+*package-lock.json
+notes/组件化/jsx/node_modules/*
