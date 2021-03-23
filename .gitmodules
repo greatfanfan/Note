@@ -1,0 +1,3 @@
+[submodule "git-demo"]
+	path = git-demo
+	url = /Users/fanliu/Note/notes/持续集成/git-demo
