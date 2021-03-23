@@ -4,7 +4,9 @@ let object = {
   b: 2
 };
 
+// 被监听
 const test = new Proxy(object, {
+  // 钩子
   set(obj, prop, val) {
     console.log(obj, prop, val);
     obj[prop] = val;
